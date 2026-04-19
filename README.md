@@ -47,10 +47,7 @@ age_gender_project/
 │
 ├── predictor.py          # Core ML engine — face detect + age + gender
 ├── api.py                # FastAPI server — serves browser UI + REST endpoints
-├── interface.html        # Browser UI (served at http://localhost:8000)
-├── predict_image.py      # CLI: run on single image or folder
-├── predict_webcam.py     # CLI: live webcam stream
-├── batch_evaluate.py     # CLI: batch processing → CSV report
+├── interface.html        # Browser UI (served at http://localhost:8000) 
 ├── download_models.py    # One-time model weight downloader
 └── requirements.txt
 ```
